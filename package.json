@@ -7,7 +7,14 @@
     "test": "grunt eslint && ./node_modules/mocha/bin/_mocha ./test.js"
   },
   "author": "makotot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makotot/find-assemble-partials.git"
+  },
   "license": "MIT",
+  "keywords": [
+    "assemble"
+  ],
   "devDependencies": {
     "chai": "^3.2.0",
     "eslint-config-makotot": "0.0.1",
