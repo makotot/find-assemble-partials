@@ -7,7 +7,7 @@
 [![License](http://img.shields.io/npm/l/find-assemble-partials.svg?style=flat-square)](https://github.com/makotot/find-assemble-partials)
 
 
-> Find assemble partial names
+> Find [assemble](http://assemble.io/) partial names
 
 
 ## Install
