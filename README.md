@@ -30,6 +30,7 @@ fs.readFile('./src/layouts/default.hbs', 'utf8', function (err, data) {
     }
 
     console.log(partials);
+    // => [ 'header', 'footer', ... ]
   });
 });
 ```

@@ -39,3 +39,5 @@ Session.vim
 *~
 
 dev/
+
+.DS_Store
