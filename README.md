@@ -22,12 +22,15 @@ $ npm i --save find-assemble-partials
 ```js
 var findPartials = require('find-assemble-partials');
 
-findPartials('./', function (err, partials) {
-  if (err) {
-    throw err;
-  }
+fs.readFile('./src/layouts/default.hbs', 'utf8', function (err, data) {
 
-  console.log(partials);
+  findPartials(data, function (error, partials) {
+    if (error) {
+      throw error;
+    }
+
+    console.log(partials);
+  });
 });
 ```
 
